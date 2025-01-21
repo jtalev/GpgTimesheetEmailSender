@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="timesheet-content-container">
+    <p id="timesheet-form-header">
+        TIMESHEET FORM
+    </p>
+    <form hx-post="/timesheet/send" hx-target="#message" hx-swap="innerHTML" id="timesheet-form">
+        <div class="name-inputs">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" />
+        </div>
+        <div class="name-inputs">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" />
+        </div>
+        <div id="date-input">
+            <label for="week-start-date">Payweek Start Date:</label>
+            <input type="date" id="week-start-date" name="week-start-date" />
+        </div>
+        <div class="timesheet-input">
+            <label>Wednesday</label>
+            <label class="text-center" style="width: 7%;">-</label>
+            <label class="text-end" for="we-hrs">Hrs:</label>
+            <input type="number" id="we-hrs" name="we-hrs" />
+            <label class="text-end" for="we-mins">Mins:</label>
+            <input type="number" id="we-mins" name="we-mins" />
+        </div>
+        <div class="timesheet-input">
+            <label>Thursday</label>
+            <label class="text-center" style="width: 7%;">-</label>
+            <label class="text-end" for="th-hrs">Hrs:</label>
+            <input type="number" id="th-hrs" name="th-hrs" />
+            <label class="text-end" for="th-mins">Mins:</label>
+            <input type="number" id="th-mins" name="th-mins" />
+        </div>
+        <div class="timesheet-input">
+            <label>Friday</label>
+            <label class="text-center" style="width: 7%;">-</label>
+            <label class="text-end" for="fr-hrs">Hrs:</label>
+            <input type="number" id="fr-hrs" name="fr-hrs" />
+            <label class="text-end" for="fr-mins">Mins:</label>
+            <input type="number" id="fr-mins" name="fr-mins" />
+        </div>
+        <div class="timesheet-input">
+            <label>Saturday</label>
+            <label class="text-center" style="width: 7%;">-</label>
+            <label class="text-end" for="sa-hrs">Hrs:</label>
+            <input type="number" id="sa-hrs" name="sa-hrs" />
+            <label class="text-end" for="sa-mins">Mins:</label>
+            <input type="number" id="sa-mins" name="sa-mins" />
+        </div>
+        <div class="timesheet-input">
+            <label>Sunday</label>
+            <label class="text-center" style="width: 7%;">-</label>
+            <label class="text-end" for="su-hrs">Hrs:</label>
+            <input type="number" id="su-hrs" name="su-hrs" />
+            <label class="text-end" for="su-mins">Mins:</label>
+            <input type="number" id="su-mins" name="su-mins" />
+        </div>
+        <div class="timesheet-input">
+            <label>Monday</label>
+            <label class="text-center" style="width: 7%;">-</label>
+            <label class="text-end" for="mo-hrs">Hrs:</label>
+            <input type="number" id="mo-hrs" name="mo-hrs" />
+            <label class="text-end" for="mo-mins">Mins:</label>
+            <input type="number" id="mo-mins" name="mo-mins" />
+        </div>
+        <div class="timesheet-input">
+            <label>Tuesday</label>
+            <label class="text-center" style="width: 7%;">-</label>
+            <label class="text-end" for="tu-hrs">Hrs:</label>
+            <input type="number" id="tu-hrs" name="wetuhrs" />
+            <label class="text-end" for="tu-mins">Mins:</label>
+            <input type="number" id="tu-mins" name="tu-mins" />
+        </div>
+        <div id="send-btn-container">
+            <button type="submit" id="send-btn">SEND</button>
+        </div>
+    </form>
+</div>
