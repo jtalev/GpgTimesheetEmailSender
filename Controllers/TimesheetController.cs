@@ -25,15 +25,15 @@ namespace GpgTimesheetEmailSender.Controllers
 
         public IActionResult Send([FromBody] TimesheetFormDTO form)
         {
-            var passcode = Environment.GetEnvironmentVariable("PASSCODE");
-            if (form.Passcode != passcode)
-            {
-                _logger.Log(LogLevel.Error, $"Error validating passcode: unauthorized user");
-                return BadRequest("Unauthorized: input valid passcode");
-            }
-
             bool isValid;
             Error error;
+
+            (isValid, error) = form.ValidatePasscode();
+            if (!isValid)
+            {
+                _logger.Log(LogLevel.Error, $"Error validating passcode: unauthorized user");
+                return BadRequest(error.Message);
+            }
             try
             {
                 (isValid, error) = form.ValidateForm();

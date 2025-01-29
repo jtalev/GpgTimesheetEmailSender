@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GpgTimesheetEmailSender")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+511dce101b0edb90ecaa72e4a0dc584c9400297a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8de9a07b5d643b939afad13e436789e485988b6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GpgTimesheetEmailSender")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GpgTimesheetEmailSender")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

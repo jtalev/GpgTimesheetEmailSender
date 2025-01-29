@@ -1,4 +1,5 @@
-﻿using GpgTimesheetEmailSender.Domain.Entities;
+﻿using GpgTimesheetEmailSender.Controllers;
+using GpgTimesheetEmailSender.Domain.Entities;
 using GpgTimesheetEmailSender.Domain.ValueObjects;
 using System.Globalization;
 using System.Text.Json.Serialization;
@@ -16,7 +17,7 @@ namespace GpgTimesheetEmailSender.Application.DTOs
         [JsonPropertyName("timesheets")]
         public required TimesheetDTO[] Timesheets { get; set; } = Array.Empty<TimesheetDTO>();
         [JsonPropertyName("passcode")]
-        public required string Passcode { get; set; } = string.Empty;
+        public string Passcode { get; set; } = string.Empty;
         
         public (bool, Error) ValidateForm()
         {
@@ -76,6 +77,18 @@ namespace GpgTimesheetEmailSender.Application.DTOs
                 return (false, error);
             }
 
+            return (true, error);
+        }
+
+        public (bool, Error) ValidatePasscode()
+        {
+            Error error = new Error { Message = "" };
+            var passcode = Environment.GetEnvironmentVariable("PASSCODE");
+            if (this.Passcode != passcode)
+            {
+                error.Message = "Unauthorized: input valid passcode";
+                return (false, error);
+            }
             return (true, error);
         }
     }

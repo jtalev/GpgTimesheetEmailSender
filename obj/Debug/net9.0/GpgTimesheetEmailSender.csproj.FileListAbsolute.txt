@@ -95,7 +95,6 @@ C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\refint\GpgTimesheet
 C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\GpgTimesheetEmailSender.pdb
 C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\GpgTimesheetEmailSender.genruntimeconfig.cache
 C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\ref\GpgTimesheetEmailSender.dll
-C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\jtale\Code\GpgTimesheetEmailSender\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\jtale\Code\GpgTimesheetEmailSender\bin\Debug\net9.0\SendGrid.dll
 C:\Users\jtale\Code\GpgTimesheetEmailSender\bin\Debug\net9.0\SendGrid.Extensions.DependencyInjection.dll
@@ -104,3 +103,4 @@ C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\GpgTimesheetEmailSe
 C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\GpgTimes.CB9C76E7.Up2Date
 C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\compressed\lfmmz3ynbo-3bcp7fg309.gz
 C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\compressed\j2hoqjamaq-8yvdnxxzh0.gz
+C:\Users\jtale\Code\GpgTimesheetEmailSender\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
