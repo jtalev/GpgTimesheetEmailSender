@@ -1,9 +1,20 @@
+using GpgTimesheetEmailSender.Application.Services;
+using GpgTimesheetEmailSender.Domain.Interfaces;
+using GpgTimesheetEmailSender.Infrastructure;
+using GpgTimesheetEmailSender.Infrastructure.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<TimesheetService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 var app = builder.Build();
+
+var root = Directory.GetCurrentDirectory();
+var dotenv = Path.Combine(root, ".env");
+DotEnv.Load(dotenv);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

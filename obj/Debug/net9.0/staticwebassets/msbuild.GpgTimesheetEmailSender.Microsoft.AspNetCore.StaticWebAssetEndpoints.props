@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/GpgTimesheetEmailSender/css/styles.ap0bynws0q.css">
+    <StaticWebAssetEndpoint Include="_content/GpgTimesheetEmailSender/css/styles.3bcp7fg309.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ap0bynws0q"},{"Name":"integrity","Value":"sha256-sgnzoMZTZsmh4zLXMES5M/dldIkG\u002BeA4HU3Gqrfe5Zw="},{"Name":"label","Value":"_content/GpgTimesheetEmailSender/css/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1766"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022sgnzoMZTZsmh4zLXMES5M/dldIkG\u002BeA4HU3Gqrfe5Zw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 11:55:06 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3bcp7fg309"},{"Name":"integrity","Value":"sha256-j81UPOgXjI0Ek5W/1HhGud68iGIRelXaU/V7ozBsOhA="},{"Name":"label","Value":"_content/GpgTimesheetEmailSender/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2309"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j81UPOgXjI0Ek5W/1HhGud68iGIRelXaU/V7ozBsOhA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 07:09:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GpgTimesheetEmailSender/css/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sgnzoMZTZsmh4zLXMES5M/dldIkG\u002BeA4HU3Gqrfe5Zw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1766"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022sgnzoMZTZsmh4zLXMES5M/dldIkG\u002BeA4HU3Gqrfe5Zw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 11:55:06 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j81UPOgXjI0Ek5W/1HhGud68iGIRelXaU/V7ozBsOhA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2309"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j81UPOgXjI0Ek5W/1HhGud68iGIRelXaU/V7ozBsOhA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 07:09:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GpgTimesheetEmailSender/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GpgTimesheetEmailSender.2kizgfkz20.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2kizgfkz20"},{"Name":"integrity","Value":"sha256-svT0\u002BLhzhp87XVNP6oEA7FwIw7BKSE57FzUbQkXUVf8="},{"Name":"label","Value":"_content/GpgTimesheetEmailSender/GpgTimesheetEmailSender.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022svT0\u002BLhzhp87XVNP6oEA7FwIw7BKSE57FzUbQkXUVf8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 09:34:42 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022svT0\u002BLhzhp87XVNP6oEA7FwIw7BKSE57FzUbQkXUVf8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 03:27:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GpgTimesheetEmailSender/GpgTimesheetEmailSender.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GpgTimesheetEmailSender.2kizgfkz20.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-svT0\u002BLhzhp87XVNP6oEA7FwIw7BKSE57FzUbQkXUVf8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022svT0\u002BLhzhp87XVNP6oEA7FwIw7BKSE57FzUbQkXUVf8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 09:34:42 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1141"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022svT0\u002BLhzhp87XVNP6oEA7FwIw7BKSE57FzUbQkXUVf8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 03:27:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GpgTimesheetEmailSender/js/htmx.min.e8n6nltupu.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\htmx.min.js'))</AssetFile>
@@ -47,6 +47,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4gndpcgjVHnzFm3vx3UOHbzVpcGAi3eS/C5nM3aPtEc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"50917"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224gndpcgjVHnzFm3vx3UOHbzVpcGAi3eS/C5nM3aPtEc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 09:36:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GpgTimesheetEmailSender/js/timesheet.8yvdnxxzh0.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\timesheet.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8yvdnxxzh0"},{"Name":"integrity","Value":"sha256-AE7rEMySCCVn4UHKKW1hslig8AsS\u002BTV0tVCD3\u002BTjOnE="},{"Name":"label","Value":"_content/GpgTimesheetEmailSender/js/timesheet.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1653"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AE7rEMySCCVn4UHKKW1hslig8AsS\u002BTV0tVCD3\u002BTjOnE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 07:12:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GpgTimesheetEmailSender/js/timesheet.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\timesheet.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AE7rEMySCCVn4UHKKW1hslig8AsS\u002BTV0tVCD3\u002BTjOnE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1653"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AE7rEMySCCVn4UHKKW1hslig8AsS\u002BTV0tVCD3\u002BTjOnE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 07:12:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GpgTimesheetEmailSender/lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>

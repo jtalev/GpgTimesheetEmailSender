@@ -29,6 +29,7 @@ C:\Users\jtale\Code\GpgTimesheetEmailSender\wwwroot\lib\jquery\dist\jquery.slim.
 C:\Users\jtale\Code\GpgTimesheetEmailSender\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\jtale\Code\GpgTimesheetEmailSender\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\jtale\Code\GpgTimesheetEmailSender\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\jtale\Code\GpgTimesheetEmailSender\wwwroot\js\timesheet.js
 C:\Users\jtale\Code\GpgTimesheetEmailSender\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 C:\Users\jtale\Code\GpgTimesheetEmailSender\wwwroot\css\styles.css
 C:\Users\jtale\Code\GpgTimesheetEmailSender\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
@@ -63,6 +64,7 @@ C:\Users\jtale\Code\GpgTimesheetEmailSender\wwwroot\lib\jquery\LICENSE.txt
 wwwroot\css\styles.css
 wwwroot\favicon.ico
 wwwroot\js\htmx.min.js
+wwwroot\js\timesheet.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\htmx.min.js"
     },
     {
+      "Id": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\wwwroot\\js\\timesheet.js",
+      "PackagePath": "staticwebassets\\js\\timesheet.js"
+    },
+    {
       "Id": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
