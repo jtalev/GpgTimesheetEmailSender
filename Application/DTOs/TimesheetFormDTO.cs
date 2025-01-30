@@ -17,9 +17,11 @@ namespace GpgTimesheetEmailSender.Application.DTOs
         [JsonPropertyName("timesheets")]
         public required TimesheetDTO[] Timesheets { get; set; } = Array.Empty<TimesheetDTO>();
         [JsonPropertyName("passcode")]
-        public string Passcode { get; set; } = string.Empty;
+        public required string Passcode { get; set; } = string.Empty;
+        [JsonPropertyName("note")]
+        public string Note {  get; set; } = string.Empty;
         
-        public (bool, Error) ValidateForm()
+        public (bool, Error?) ValidateForm()
         {
             var (isValid, error) = this.ValidateName();
             if (!isValid)
@@ -37,10 +39,10 @@ namespace GpgTimesheetEmailSender.Application.DTOs
                 return (isValid, error);
             }
 
-            return (true, new Error { Message = "" });
+            return (true, null);
         }
 
-        public (bool, Error) ValidateName()
+        public (bool, Error?) ValidateName()
         {
             Error error = new Error { Message = "" };
             if (0 == this.FirstName.Length || 0 == this.LastName.Length)
@@ -49,10 +51,10 @@ namespace GpgTimesheetEmailSender.Application.DTOs
                 return (false, error);
             }
 
-            return (true, error);
+            return (true, null);
         }
 
-        public (bool, Error) ValidateWeekStartDate()
+        public (bool, Error?) ValidateWeekStartDate()
         {
             Error error = new Error { Message = "" };
             string[] dateArr = this.WeekStartDate.Split("-");
@@ -64,10 +66,10 @@ namespace GpgTimesheetEmailSender.Application.DTOs
                 return (false, error);
             }
 
-            return (true, error);
+            return (true, null);
         }
 
-        public (bool, Error) ValidateTimesheets()
+        public (bool, Error?) ValidateTimesheets()
         {
             Error error = new Error { Message = "" };
 
@@ -77,10 +79,10 @@ namespace GpgTimesheetEmailSender.Application.DTOs
                 return (false, error);
             }
 
-            return (true, error);
+            return (true, null);
         }
 
-        public (bool, Error) ValidatePasscode()
+        public (bool, Error?) ValidatePasscode()
         {
             Error error = new Error { Message = "" };
             var passcode = Environment.GetEnvironmentVariable("PASSCODE");
@@ -89,7 +91,7 @@ namespace GpgTimesheetEmailSender.Application.DTOs
                 error.Message = "Unauthorized: input valid passcode";
                 return (false, error);
             }
-            return (true, error);
+            return (true, null);
         }
     }
 

@@ -3,48 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\application\\dtos\\timesheetformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:application\\dtos\\timesheetformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\controllers\\timesheetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:controllers\\timesheetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\application\\services\\timesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:application\\services\\timesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\infrastructure\\dotenv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:infrastructure\\dotenv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\domain\\valueobjects\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:domain\\valueobjects\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\domain\\entities\\timesheetweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:domain\\entities\\timesheetweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\infrastructure\\dotenv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:infrastructure\\dotenv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\domain\\entities\\timesheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:domain\\entities\\timesheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\domain\\valueobjects\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:domain\\valueobjects\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\application\\services\\timesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:application\\services\\timesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\application\\dtos\\timesheetformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:application\\dtos\\timesheetformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\wwwroot\\js\\timesheet.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:wwwroot\\js\\timesheet.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\views\\timesheet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:views\\timesheet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\controllers\\timesheetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:controllers\\timesheetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|c:\\users\\jtale\\code\\gpgtimesheetemailsender\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49815E0A-E49C-4407-8EB1-D7FAC26DB854}|GpgTimesheetEmailSender.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,61 +66,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAG4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-30T04:20:00.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Views\\Timesheet\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Timesheet\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Views\\Timesheet\\Index.cshtml",
+              "RelativeToolTip": "Views\\Timesheet\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T04:17:55.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TimesheetFormDTO.cs",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Application\\DTOs\\TimesheetFormDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\TimesheetFormDTO.cs",
               "ToolTip": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Application\\DTOs\\TimesheetFormDTO.cs",
               "RelativeToolTip": "Application\\DTOs\\TimesheetFormDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwDUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T04:11:07.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Timesheet.cs",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Domain\\Entities\\Timesheet.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Timesheet.cs",
               "ToolTip": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Domain\\Entities\\Timesheet.cs",
               "RelativeToolTip": "Domain\\Entities\\Timesheet.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAzwCkAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwDYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T04:03:46.335Z"
+              "WhenOpened": "2025-01-24T04:03:46.335Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "TimesheetWeek.cs",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Domain\\Entities\\TimesheetWeek.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\TimesheetWeek.cs",
               "ToolTip": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Domain\\Entities\\TimesheetWeek.cs",
               "RelativeToolTip": "Domain\\Entities\\TimesheetWeek.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwCsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T03:45:54.183Z"
+              "WhenOpened": "2025-01-24T03:45:54.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TimesheetService.cs",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Application\\Services\\TimesheetService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\TimesheetService.cs",
               "ToolTip": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Application\\Services\\TimesheetService.cs",
               "RelativeToolTip": "Application\\Services\\TimesheetService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwCIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T02:29:06.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -120,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "TimesheetController.cs",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Controllers\\TimesheetController.cs",
               "RelativeDocumentMoniker": "Controllers\\TimesheetController.cs",
@@ -133,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Infrastructure\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\EmailService.cs",
@@ -141,11 +181,12 @@
               "RelativeToolTip": "Infrastructure\\Services\\EmailService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T04:51:38.61Z"
+              "WhenOpened": "2025-01-24T04:51:38.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "DotEnv.cs",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Infrastructure\\DotEnv.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DotEnv.cs",
@@ -153,11 +194,12 @@
               "RelativeToolTip": "Infrastructure\\DotEnv.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T05:57:28.326Z"
+              "WhenOpened": "2025-01-24T05:57:28.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\.env",
               "RelativeDocumentMoniker": ".env",
@@ -165,12 +207,37 @@
               "RelativeToolTip": ".env",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-24T05:50:16.734Z",
+              "WhenOpened": "2025-01-24T05:50:16.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Domain\\ValueObjects\\Error.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\Error.cs",
+              "ToolTip": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Domain\\ValueObjects\\Error.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T04:48:04.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "timesheet.js",
+              "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\wwwroot\\js\\timesheet.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\timesheet.js",
+              "ToolTip": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\wwwroot\\js\\timesheet.js",
+              "RelativeToolTip": "wwwroot\\js\\timesheet.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-30T04:39:33.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -179,18 +246,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-29T05:53:05.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Error.cs",
-              "DocumentMoniker": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Domain\\ValueObjects\\Error.cs",
-              "RelativeDocumentMoniker": "Domain\\ValueObjects\\Error.cs",
-              "ToolTip": "C:\\Users\\jtale\\Code\\GpgTimesheetEmailSender\\Domain\\ValueObjects\\Error.cs",
-              "RelativeToolTip": "Domain\\ValueObjects\\Error.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T04:48:04.462Z"
             }
           ]
         }

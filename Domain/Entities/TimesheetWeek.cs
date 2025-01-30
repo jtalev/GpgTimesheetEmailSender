@@ -7,6 +7,7 @@ namespace GpgTimesheetEmailSender.Domain.Entities
         public string FullName { get; set; }
         public DateTime WeekStartDate { get; set; }
         public Timesheet[] Timesheets { get; set; }
+        public string Note { get; set; }
 
         public TimesheetWeek() { }
 
@@ -24,7 +25,7 @@ namespace GpgTimesheetEmailSender.Domain.Entities
                 $"Timesheets: {this.Timesheets} \n";
         }
 
-        public (bool, Error) Validate()
+        public (bool, Error?) Validate()
         {
             var (isValid, error) = this.ValidateWeekStartDate();
             if (!isValid)
@@ -40,10 +41,10 @@ namespace GpgTimesheetEmailSender.Domain.Entities
                 }
             }
 
-            return (true, new Error { Message = "" });
+            return (true, null);
         }
 
-        public (bool, Error) ValidateWeekStartDate()
+        public (bool, Error?) ValidateWeekStartDate()
         {
             Error error = new Error { Message = "" };
             DateTime date = this.WeekStartDate;
@@ -53,7 +54,7 @@ namespace GpgTimesheetEmailSender.Domain.Entities
                 return (false, error);
             }
 
-            return (true, error);
+            return (true, null);
         }
 
         public string CalcuateTotal()

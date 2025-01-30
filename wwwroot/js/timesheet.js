@@ -7,6 +7,7 @@
         week_start_date: document.querySelector("#week-start-date").value || "",
         timesheets: [],
         passcode: document.querySelector("#passcode").value || "",
+        note: document.querySelector("#note").value || ""
     }
 
     for (let i = 0; i < 7; i++) {

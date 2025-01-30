@@ -45,14 +45,14 @@ namespace GpgTimesheetEmailSender.Domain.Entities
             }
         }
 
-        public (bool, Error) Validate()
+        public (bool, Error?) Validate()
         {
             if (this.Hours < 0 || this.Minutes < 0)
             {
                 return (false, new Error { Message = "Hrs and Mins values must be 0 or greater" });
             }
 
-            return (true, new Error { Message = "" });
+            return (true, null);
         }
     }
 }

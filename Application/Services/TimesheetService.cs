@@ -13,7 +13,7 @@ namespace GpgTimesheetEmailSender.Application.Services
             _emailService = emailService;
         }
 
-        public (bool, Error) SubmitTimesheet(TimesheetFormDTO requestDto)
+        public (bool, Error?) SubmitTimesheet(TimesheetFormDTO requestDto)
         {
             TimesheetWeek timesheetWeek = CreateTimesheetWeek(requestDto);
 
@@ -32,7 +32,7 @@ namespace GpgTimesheetEmailSender.Application.Services
                 return (false, new Error { Message = "Internal error sending email" });
             }
 
-            return (true, new Error { Message = "" });
+            return (true, null);
         }
 
         public TimesheetWeek CreateTimesheetWeek(TimesheetFormDTO requestDto)
@@ -46,6 +46,7 @@ namespace GpgTimesheetEmailSender.Application.Services
             outTimesheetWeek.FullName = fullName;
             outTimesheetWeek.WeekStartDate = weekStartDate;
             outTimesheetWeek.Timesheets = timesheets;
+            outTimesheetWeek.Note = requestDto.Note;
 
             return outTimesheetWeek;
         }
@@ -94,7 +95,9 @@ namespace GpgTimesheetEmailSender.Application.Services
             {
                 email += timesheetWeek.Timesheets[i].ToStringEmail();
             }
+            email += $"Note:\n{timesheetWeek.Note}";
             email += $"\nTotal     - {total}\n";
+            Console.WriteLine(email);
             return email;
         }
     }
